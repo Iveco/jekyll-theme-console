@@ -10,18 +10,7 @@ layout: default
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = "%Y-%m-%d %H:%M:%S" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:sparkles: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:stars: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:star: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:gem: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:star2: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:firecracker: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:fireworks: {{ post.link }}</p></a>
       [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:heavy_plus_sign: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:white_check_mark: {{ post.link }}</p></a>
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong><p style="font-size:10px; font-style: italic; text-decoration:underline;">:bow_and_arrow: {{ post.link }}</p></a>
-      
-      
     </li>
     {%- endfor -%}
   </ul>
