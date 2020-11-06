@@ -4,7 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>{{ page.title }}</title>
   {%- seo title=false -%}
-
+  
+  {% feed_meta %}
+  
   {% if page.robots %}
     <meta name="robots" content="{{page.robots}}" />
   {% endif %}
