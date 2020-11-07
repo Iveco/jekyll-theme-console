@@ -15,4 +15,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jemoji
-  - jekyll-paginate  
+  - jekyll-paginate
