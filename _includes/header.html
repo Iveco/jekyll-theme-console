@@ -2,7 +2,7 @@
 <header>
   <div class="menu">
     <ul>
-        <li><a href="https://www.threatintel.de" alt="/threatintel - your daily /threatintelligence source for cyber security knowledge" title="/threatintel - your daily /threatintelligence source for cyber security knowledge">/threatintel</a></li>
+<li><a href="{{ site.url }}" alt="{{ site.description }}" title="{{ site.description }}">{{ site.title | escape }}</a></li>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
