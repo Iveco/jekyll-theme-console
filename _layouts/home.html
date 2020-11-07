@@ -10,7 +10,7 @@ layout: default
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = "%Y-%m-%d %H:%M" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong> <i>{{ post.link }}</i></a>
+      [ {{ post.date | date: date_format }} ] <a href="{{ post.link }}" rel="nofollow" target="_blank"><strong>{{ post.title | escape }}</strong> <span style="font-size:7px;">-&gt; {{ post.link }}</span></a>
     </li>
     {%- endfor -%}
   </ul>
