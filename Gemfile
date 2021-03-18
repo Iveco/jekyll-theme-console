@@ -5,3 +5,7 @@ gemspec
 
 
 gem 'jekyll-seo-tag'
+gem 'jekyll-feed'
+gem 'jemoji'
+gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
